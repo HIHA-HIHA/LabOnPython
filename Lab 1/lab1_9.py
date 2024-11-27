@@ -1,0 +1,5 @@
+number1 = float(input("Число 1 >>"))
+number2 = float(input("Число 2 >>"))
+print(f"Возведение в степень: {number1**number2}")
+print(f"Деление на первое число: {(number1**number2)/number1}")
+print(f"Остаток от деления: {(number1**number2)%number1}")
